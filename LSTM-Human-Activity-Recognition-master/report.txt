@@ -1,0 +1,39 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'LSTM.ipynb'
+ outputting to 'Tf_LSTM.ipynb'
+--------------------------------------------------------------------------------
+
+15:0: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+147:9: INFO: Added keywords to args of function 'tf.transpose'
+159:18: INFO: Renamed 'tf.contrib.rnn.BasicLSTMCell' to 'tf.compat.v1.nn.rnn_cell.BasicLSTMCell'
+160:18: INFO: Renamed 'tf.contrib.rnn.BasicLSTMCell' to 'tf.compat.v1.nn.rnn_cell.BasicLSTMCell'
+161:17: INFO: Renamed 'tf.contrib.rnn.MultiRNNCell' to 'tf.compat.v1.nn.rnn_cell.MultiRNNCell'
+163:22: INFO: Renamed 'tf.contrib.rnn.static_rnn' to 'tf.compat.v1.nn.static_rnn'
+198:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+199:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+203:26: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+204:23: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+207:26: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+208:23: INFO: Renamed 'tf.random_normal' to 'tf.random.normal'
+215:40: INFO: Renamed 'tf.trainable_variables' to 'tf.compat.v1.trainable_variables'
+217:7: INFO: Added keywords to args of function 'tf.reduce_mean'
+217:22: INFO: Changing labels arg of tf.nn.softmax_cross_entropy_with_logits to tf.stop_gradient(labels). Please check this transformation.
+
+218:12: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+220:24: INFO: Added keywords to args of function 'tf.argmax'
+220:43: INFO: Added keywords to args of function 'tf.argmax'
+221:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+229:7: INFO: Renamed 'tf.InteractiveSession' to 'tf.compat.v1.InteractiveSession'
+229:36: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+230:7: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
